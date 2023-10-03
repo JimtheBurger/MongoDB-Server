@@ -12,3 +12,5 @@ You will need to go into both the connect.js and insert-data.js files and manual
 Haven't tested it on my laptop yet, but you may need to use "npm install cors dotenv express mongodb" & "npm install --save-dev typescript @types/cors @types/express @types/node ts-node" in command prompt (doing this will at worst just waste your time for 5 seconds, it won't add any files that aren't on this github).
 
 Given that your files are set up correctly and your command promt is located in the correct directory, you must first connect using "node connect.js". After successfully connecting, you must insert the data using "node insert-data.js" which should put in another entry into our cluster on MongoDB for the "GettingStarted" Database, the "people" Collection,  which most likely says "Alan Turing" assuming nothing was changed in the insert-data.js file.
+
+For further information or help, this is what I used to set it up: https://www.mongodb.com/docs/atlas/
