@@ -1,7 +1,7 @@
 const { MongoClient } = require("mongodb");
  
 // Replace the following with your Atlas connection string                                                                                                                                        
-const url = "mongodb+srv://Base:G4AMwdxFZbJ2Qfiz@clusterpoos.s39wxju.mongodb.net/?retryWrites=true&w=majority"
+const url = "mongodb+srv://Base:<PASSWORD GOES HERE!!!!>@clusterpoos.s39wxju.mongodb.net/?retryWrites=true&w=majority"
 const client = new MongoClient(url);
  
  // Reference the database to use
